@@ -153,7 +153,7 @@ Setiap AI Agent yang bekerja di repositori ini **WAJIB MEMATUHI** aturan berikut
 
 7. **[TOOL] Aturan Version Control Git**:
    - Selalu lakukan `git add` dan `git commit` secara atomik per fitur dengan pesan commit yang jelas dan deskriptif.
-   - **DILARANG KERAS** mengeksekusi `git push`, `git reset`, `git squash`, `git merge`, atau `git rebase` karena operasi remote dan modifikasi histori berada di bawah kendali penuh pengguna.
+   - **DILARANG KERAS** mengeksekusi `git reset`, `git squash`, `git merge`, atau `git rebase` karena modifikasi histori berada di bawah kendali penuh pengguna. Operasi `git push` hanya boleh dieksekusi jika diinstruksikan secara eksplisit oleh pengguna.
    - Jangan pernah menyertakan temporary files, debug logs, atau scratch files ke dalam commit Git.
 
 8. **[PROCESS] Disclaimer Pertanyaan Pengguna**:
